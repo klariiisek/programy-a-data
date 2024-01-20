@@ -15,13 +15,15 @@
   </header>
   <main>
     <h2 id="instalace-programu">Instalace programů</h2>
-    <p>
+    <div class="obepinaci-container">
+      <img src="install.png" alt="install" class="center">
+      <p>
       Program, který si koupíme, dostaneme na CD/DVD disku, nebo si ho
       stáhneme z Internetu. Po vložení instalačního CD/DVD disku se většinou
       okamžitě spustí instalační program (díky souboru <em>autorun.inf</em>),
       v případě softwaru staženého z Internetu musíme instalační program
       spustit sami (ve Windows nejčastěji poklepáním na soubory
-      <em>install.exe</em> či <em>setup.exe</em>). Průvodce instalací
+      <mark><em>install.exe</em></mark> či <mark><em>setup.exe</em></mark>). Průvodce instalací
       (<em>wizzard</em>) si často vyžádá sériové číslo a souhlas s licenčními
       podmínkami, zeptá se, kam (do jaké složky na disku) se má program uložit
       a kam se má umístit zástupce programu, případně žádá další informace.
@@ -31,17 +33,19 @@
       programu pro jeho snadné spuštění. K instalaci většiny programů je nutné
       mít práva správce.
     </p>
+    </div>
+    
     <h2 id="odinstalace-programu">Odinstalace programu</h2>
     <p>
       Úplné odebrání programu bývá paradoxně často složitější, zvláště v
       systémech Windows. Při instalaci si program nahraje své komponenty do
       mnoha složek včetně systémových, sdílí některé soubory s jinými programy
-      (dynamické knihovny DLL), vytvoří záznamy v tzv. registru, při svém běhu
+      (dynamické knihovny <mark>DLL</mark>), vytvoří záznamy v tzv. registru, při svém běhu
       vytváří pomocné soubory. Program, zajišťující odinstalování aplikace,
       často neví přesně, kde všude jsou programové soubory uložené a všechny
       je nesmaže. V řadě případů tak dochází k hromadění zbytečných a
       nepoužívaných souborů. Pro jejich odstranění lze používat některé
-      speciální utility - např. <em>RegCleaner</em> (program pro čištění
+      speciální <a href="https://cs.wikipedia.org/wiki/Utilita">utility</a> - např. <em>RegCleaner</em> (program pro čištění
       registrů). Při podobných operacích je však nutné postupovat velmi
       obezřetně, aby nedošlo k odstranění některé důležité součásti systému
       nebo používaného programu! V linuxových systémech je lépe vyřešeno
@@ -63,11 +67,11 @@
     <h2 id="platforma-a-kompatibilita">Platforma a kompatibilita</h2>
     <p>
       V souvislosti s určitým typem OS i typem procesoru používáme pojem
-      <strong>platforma</strong> - např. Windows, Linux, OS X. Používaný
+      <strong>platforma</strong> - např. Windows, <a href="https://cs.wikipedia.org/wiki/Linux">Linux</a>, OS X. Používaný
       program musí být určen pro operační systém, který je na&nbsp;počítači
       nainstalován; pod jiným systémem většinou nepracuje (např. program
       určený pro MS Windows nebude pracovat pod Linuxem a naopak). Mnoho
-      programů, zvláště z oblasti svobodného software (<em>free software</em>), má proto verze určené pro několik
+      programů, zvláště z oblasti svobodného software (<mark><em>free software</em></mark>), má proto verze určené pro několik
       operačních systémů - jsou
       <strong>multiplatformní</strong>. Problémy se spuštěním programu však
       mohou nastat i na jedné platformě v souvislosti s různými verzemi OS i
@@ -81,7 +85,9 @@
       součástí panelu <em>Vlastnosti</em> pro zástupce dané aplikace
     </p>
     <h2 id="verze-programu">Verze programů</h2>
-    <p>
+    <div class="obepinaci-container">
+      <img src="upgrade.jpg" alt="upgrade" width="40%">
+      <p>
       U počítačových programů je důležitá jeho verze, která se označuje číslem
       za názvem programu. Nový program může být například označen jako verze
       1.0. Některé dodatečně zjištěné dílčí nedostatky nebo bezpečnostní
@@ -92,14 +98,16 @@
       1.1 nebo 1.23 apod. Povýšení na novou verzi (např.&nbsp;2.0), <strong>upgrade</strong>,
       přináší významnější změny ve vývoji programu a v případě komerčního
       software je třeba vyšší verzi znovu zaplatit. Bývá pravidlem, že nové
-      verze mají nové funkce a lepší ovládá- ní, ale také vyšší nároky na
+      verze mají nové funkce a lepší ovládání, ale také vyšší nároky na
       výkon počítače. Před provedením upgrade je tedy nutné zjistit
       doporučenou (případně minimální) konfiguraci počítače, aby bylo možné
       program na daném počítači možné vůbec používat. Opačný postup, tedy
       použití nižší verze programu (např. kvůli nekompatibilitě s
-      instalovaných OS nebo nedostatečnou konfigurací počítače), se&nbsp;nazývá
+      instalovaných <a href="https://cs.wikipedia.org/wiki/OS">OS</a> nebo nedostatečnou konfigurací počítače), se&nbsp;nazývá
       <strong>downgrade</strong>.
     </p>
+    </div>
+
     <h2 id="registrace-programu">Registrace programu</h2>
     <p>
       Registrace programu je zaevidování jeho uživatele do databáze výrobce
