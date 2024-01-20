@@ -76,7 +76,7 @@ section {
   display: inline-block;
   width: 48%; /* 48% pro zajištění, že dvě sekce na jednom řádku se nevleznou na jeden řádek */
   box-sizing: border-box;
-  background-color: #7b27c95d;
+  background-color: #07d0f467;
   /* Světle modré pozadí */
 }
 p {
